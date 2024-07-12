@@ -15,6 +15,4 @@ fn main() -> io::Result<()> {
 }
 
 #[cfg(target_family = "unix")]
-fn main() {
-    println!("aaaa");
-}
+fn main() {}
